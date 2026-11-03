@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Molex 2pos conn") (type "KiCad") (uri "${KIPRJMOD}/Custom E-Cad Models/Molex Connector/2026-10-31_16-22-11.kicad_sym") (options "") (descr ""))
+)
