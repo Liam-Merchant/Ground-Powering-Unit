@@ -5,187 +5,6 @@
 	(uuid "63b2c836-08da-46d0-ba2b-3d7f0128728d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Battery"
 			(pin_numbers
 				(hide yes)
@@ -955,7 +774,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Molex 2pos conn:2200970271"
+		(symbol "JST 2pos conn:S02B-XASS-1LFSN"
 			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
@@ -975,7 +794,7 @@
 					)
 				)
 			)
-			(property "Value" "2200970271"
+			(property "Value" "S02B-XASS-1LFSN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -985,7 +804,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CONN_2200970000-SD_02_MOL"
+			(property "Footprint" "S02B-XASS-1:CONN2_S02B-XASS_295x496_JST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -997,7 +816,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200970271?display=pdf"
+			(property "Datasheet" "S02B-XASS-1LFSN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1020,17 +839,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "2200970271"
+			(property "ki_keywords" "S02B-XASS-1(LF)(SN)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1041,7 +850,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "CONN_2200970000-SD_02_MOL"
+			(property "ki_fp_filters" "CONN2_S02B-XASS_295x496_JST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1052,7 +861,7 @@
 					)
 				)
 			)
-			(symbol "2200970271_1_1"
+			(symbol "S02B-XASS-1LFSN_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -5.08)
@@ -1210,7 +1019,7 @@
 					)
 				)
 			)
-			(symbol "2200970271_1_2"
+			(symbol "S02B-XASS-1LFSN_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -5.08)
@@ -1713,6 +1522,16 @@
 		)
 		(uuid "09339fdb-275a-4f81-9b24-5129402c880c")
 	)
+	(text "External Input"
+		(exclude_from_sim no)
+		(at 32.766 178.054 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0b31c610-9816-47a8-9c24-fa992edbcf64")
+	)
 	(text "10m?"
 		(exclude_from_sim no)
 		(at 239.268 106.172 0)
@@ -1792,6 +1611,16 @@
 			)
 		)
 		(uuid "3dc59c12-fa44-4b67-acad-78a31229cbe0")
+	)
+	(text "Output"
+		(exclude_from_sim no)
+		(at 34.29 148.844 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3fc26483-3376-45c0-a487-de0d40e00b75")
 	)
 	(text "All of these FCs can work with 9V as their input voltage( 9- the diode voltage drop, which is better)"
 		(exclude_from_sim no)
@@ -2146,6 +1975,16 @@
 			)
 		)
 		(uuid "f3ea4392-5b97-4856-9ce9-bfd1474b17d6")
+	)
+	(text "Battery Input"
+		(exclude_from_sim no)
+		(at 32.512 163.576 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f8e32e5c-4a13-4230-9fa8-97abce63ad2d")
 	)
 	(junction
 		(at 120.65 93.472)
@@ -14882,7 +14721,7 @@
 	)
 	(global_label "VBATT"
 		(shape input)
-		(at 95.504 73.66 0)
+		(at 61.468 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14892,7 +14731,7 @@
 		)
 		(uuid "045e950f-cc8b-4867-ad4e-2de594036615")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8716 73.66 0)
+			(at 69.8356 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14978,7 +14817,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 188.976 74.93 0)
+		(at 61.722 176.784 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14988,7 +14827,7 @@
 		)
 		(uuid "f746198f-3084-4d04-85ec-e996ac562884")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4688 74.93 0)
+			(at 68.2148 176.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15002,7 +14841,7 @@
 	)
 	(global_label "Vout"
 		(shape input)
-		(at 52.832 73.152 0)
+		(at 61.468 147.574 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15012,7 +14851,7 @@
 		)
 		(uuid "f91fbeda-85ea-4c79-81ce-d26eb804b673")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.9295 73.152 0)
+			(at 68.5655 147.574 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15264,8 +15103,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 183.896 69.85 270)
+		(lib_id "JST 2pos conn:S02B-XASS-1LFSN")
+		(at 61.468 150.114 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15274,53 +15113,53 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "36a26b49-0508-47b5-b1ed-28623aba6656")
+		(uuid "42b5f989-df83-41d0-a8ec-472d75d13c08")
 		(property "Reference" "J2"
-			(at 185.674 69.2149 90)
+			(at 52.578 140.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 185.674 71.7549 90)
+		(property "Value" "S02B-XASS-1LFSN"
+			(at 52.578 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
-			(at 183.896 69.85 0)
+		(property "Footprint" "S02B-XASS-1:CONN2_S02B-XASS_295x496_JST"
+			(at 61.468 150.114 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 183.896 69.85 0)
+		(property "Datasheet" "S02B-XASS-1LFSN"
+			(at 61.468 150.114 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 183.896 69.85 0)
+		(property "Description" ""
+			(at 61.468 150.114 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15331,10 +15170,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ca8780d6-c70b-461b-b434-d14c8af7a27c")
+			(uuid "b3eff677-c29d-42d6-815c-decf38895037")
 		)
 		(pin "1"
-			(uuid "26c84df2-25b2-4b26-b34f-c028c62f5f10")
+			(uuid "7e72ddb5-5ab1-4cbe-8b33-7be692f32e6d")
 		)
 		(instances
 			(project "Ground-Powering-Unit"
@@ -15346,8 +15185,90 @@
 		)
 	)
 	(symbol
+		(lib_id "JST 2pos conn:S02B-XASS-1LFSN")
+		(at 61.468 165.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "455a7df1-00bf-4d9b-81f1-1e48adf5026d")
+		(property "Reference" "J3"
+			(at 52.578 155.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "S02B-XASS-1LFSN"
+			(at 52.578 157.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "S02B-XASS-1:CONN2_S02B-XASS_295x496_JST"
+			(at 61.468 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "S02B-XASS-1LFSN"
+			(at 61.468 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 61.468 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71f74ab7-1ccb-4028-bdb9-4deb694ef9c5")
+		)
+		(pin "1"
+			(uuid "495ff906-fe70-4f2b-8b95-55d39c87c1b5")
+		)
+		(instances
+			(project "Ground-Powering-Unit"
+				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 181.356 74.93 0)
+		(at 61.722 179.324 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15358,7 +15279,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b5d6a0c-87cb-4a84-a5c2-27989f013125")
 		(property "Reference" "#PWR07"
-			(at 181.356 81.28 0)
+			(at 61.722 185.674 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15369,7 +15290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.356 80.01 0)
+			(at 61.722 184.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15379,7 +15300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.356 74.93 0)
+			(at 61.722 179.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15390,7 +15311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.356 74.93 0)
+			(at 61.722 179.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15401,7 +15322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.356 74.93 0)
+			(at 61.722 179.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15576,6 +15497,88 @@
 			(project "Ground-Powering-Unit"
 				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JST 2pos conn:S02B-XASS-1LFSN")
+		(at 61.722 179.324 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fbde5da-5b8b-4feb-8067-4cb3bbe779f6")
+		(property "Reference" "J4"
+			(at 52.832 169.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "S02B-XASS-1LFSN"
+			(at 52.832 172.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "S02B-XASS-1:CONN2_S02B-XASS_295x496_JST"
+			(at 61.722 179.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "S02B-XASS-1LFSN"
+			(at 61.722 179.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 61.722 179.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ceb4c6f5-105e-4095-90e7-caead77c5cdc")
+		)
+		(pin "1"
+			(uuid "7c95466c-b44a-47ab-b1fe-c21185d9c187")
+		)
+		(instances
+			(project "Ground-Powering-Unit"
+				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15990,90 +15993,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Molex 2pos conn:2200970271")
-		(at 61.722 144.526 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7fc7ca2-d0d9-4072-b84c-afcbc9cbec59")
-		(property "Reference" "J1"
-			(at 76.2 144.5259 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2200970271"
-			(at 76.2 147.0659 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Molex 2pos conn foot:CONN_2200970000-SD_02_MOL"
-			(at 61.722 144.526 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200970271?display=pdf"
-			(at 61.722 144.526 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 61.722 144.526 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "460fd77f-6252-48ca-9a45-dab9f9e24fd8")
-		)
-		(pin "2"
-			(uuid "698cc910-fe63-4bb4-a46e-153645696c79")
-		)
-		(instances
-			(project "Ground-Powering-Unit"
-				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 101.092 0)
 		(unit 1)
@@ -16471,90 +16390,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 90.17 68.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d19282c4-8132-4264-8f80-409e5c29acf2")
-		(property "Reference" "J4"
-			(at 91.948 67.9449 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 91.948 70.4849 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
-			(at 90.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 90.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b6ae5b57-53dd-4204-94c7-22e02196de27")
-		)
-		(pin "1"
-			(uuid "815d074a-2a62-4852-9be9-a479fbe3116c")
-		)
-		(instances
-			(project "Ground-Powering-Unit"
-				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 87.63 73.66 0)
+		(at 61.468 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16565,7 +16402,7 @@
 		(fields_autoplaced yes)
 		(uuid "efb5f60c-6d83-46f8-9a27-ca457754bc1e")
 		(property "Reference" "#PWR06"
-			(at 87.63 80.01 0)
+			(at 61.468 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16576,7 +16413,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 78.74 0)
+			(at 61.468 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16586,7 +16423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 73.66 0)
+			(at 61.468 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16597,7 +16434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 73.66 0)
+			(at 61.468 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16608,7 +16445,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 73.66 0)
+			(at 61.468 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16632,7 +16469,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.292 73.152 0)
+		(at 61.468 150.114 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16643,7 +16480,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7bb7c01-45e8-4056-b95d-7c901009bb11")
 		(property "Reference" "#PWR08"
-			(at 50.292 79.502 0)
+			(at 61.468 156.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16654,7 +16491,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.292 78.232 0)
+			(at 61.468 155.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16664,7 +16501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.292 73.152 0)
+			(at 61.468 150.114 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16675,7 +16512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.292 73.152 0)
+			(at 61.468 150.114 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16686,7 +16523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.292 73.152 0)
+			(at 61.468 150.114 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16703,88 +16540,6 @@
 			(project "Ground-Powering-Unit"
 				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 52.832 68.072 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdc62557-a423-4f36-8c2a-5ea6848879e7")
-		(property "Reference" "J3"
-			(at 54.61 67.4369 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 54.61 69.9769 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
-			(at 52.832 68.072 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.832 68.072 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 52.832 68.072 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "56b66dd2-c215-409a-acee-b5091e64f0a0")
-		)
-		(pin "1"
-			(uuid "9a48de81-b601-44e9-81d2-930c42e1c08b")
-		)
-		(instances
-			(project "Ground-Powering-Unit"
-				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
-					(reference "J3")
 					(unit 1)
 				)
 			)
