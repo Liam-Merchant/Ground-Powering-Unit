@@ -1999,12 +1999,6 @@
 		(uuid "2978091f-3990-496c-9eee-0b9b2d4e2453")
 	)
 	(junction
-		(at 129.286 93.472)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50393dd1-d0bb-4a91-b964-a0ec29997800")
-	)
-	(junction
 		(at 180.34 93.218)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2150,7 +2144,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.286 93.472) (xy 138.684 93.472)
+			(xy 120.65 93.472) (xy 138.684 93.472)
 		)
 		(stroke
 			(width 0)
@@ -2467,16 +2461,6 @@
 			(type default)
 		)
 		(uuid "da188053-422b-49f4-b296-48e490342a5b")
-	)
-	(wire
-		(pts
-			(xy 120.65 93.472) (xy 129.286 93.472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc1ad1b9-92bc-4b85-94d0-1749c1307b3d")
 	)
 	(wire
 		(pts
@@ -15054,7 +15038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 121.6152 101.092 0)
 			(hide yes)
 			(show_name no)
@@ -15700,7 +15684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 171.1452 101.092 0)
 			(hide yes)
 			(show_name no)
@@ -16181,7 +16165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 160.7312 101.092 0)
 			(hide yes)
 			(show_name no)
@@ -16224,166 +16208,6 @@
 			(project "Ground-Powering-Unit"
 				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 129.286 97.282 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cad75915-8cf2-4472-9981-178b108b2d6c")
-		(property "Reference" "C1"
-			(at 132.588 96.0119 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 132.588 98.5519 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 130.2512 101.092 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.286 97.282 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 129.286 97.282 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ca311c92-1d13-4f86-aedf-e599feed6722")
-		)
-		(pin "1"
-			(uuid "6dd7aaf6-8880-48c9-be98-4915678af6e3")
-		)
-		(instances
-			(project "Ground-Powering-Unit"
-				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.286 101.092 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cae9d0fe-8c3c-4633-9594-d74cb7c231d8")
-		(property "Reference" "#PWR05"
-			(at 129.286 107.442 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.286 106.172 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.286 101.092 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.286 101.092 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.286 101.092 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d3372ef-8734-4fc6-80cd-388db472ff77")
-		)
-		(instances
-			(project "Ground-Powering-Unit"
-				(path "/63b2c836-08da-46d0-ba2b-3d7f0128728d"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
